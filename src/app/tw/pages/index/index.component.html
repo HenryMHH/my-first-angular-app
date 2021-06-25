@@ -1,0 +1,9 @@
+<div class="index">
+  我是首頁
+
+  <ul>
+    <li *ngFor="let item of items | async">
+      {{ item.name }}
+    </li>
+  </ul>
+</div>

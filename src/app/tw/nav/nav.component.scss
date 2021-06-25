@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 0.5em 3em;
+  .link-list {
+    ul {
+      display: flex;
+      list-style: none;
+      li {
+        margin: 0 1em;
+      }
+    }
+  }
+}

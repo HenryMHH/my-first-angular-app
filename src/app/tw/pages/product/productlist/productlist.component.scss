@@ -1,0 +1,8 @@
+td,
+td {
+  min-width: 120px;
+
+  &:first-child {
+    min-width: 80px;
+  }
+}
